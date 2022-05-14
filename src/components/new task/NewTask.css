@@ -1,0 +1,27 @@
+@import url(../utilities.css);
+
+.new-task-con {
+    border: 1px solid var(--primary-pink);
+    border-radius: var(--size-5);
+}
+
+.tasks-con div {
+    background-color: var(--light-grey-hover);
+    border-radius: var(--size-5);
+}
+
+.tasks-con {
+    height: 10rem;
+    overflow-y: auto;
+}
+
+.timer {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    border: 10px solid var(--primary-pink);
+}
+
+.box-sdw-lg {
+    box-shadow: var(--box-shadow-light);
+}
